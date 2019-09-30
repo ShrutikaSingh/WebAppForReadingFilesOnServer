@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+  <head>
+    <title>Python Button Script</title>
+  </head>
+  <body>
+      <button onclick="location.href='{% url 'script' %}'">Press Button To Exexute Script</button><hr>
+      <h3>
+          {% if data %}
+              {{data}}
+          {% endif %}
+      <h3>
+  </body>
+</html>
