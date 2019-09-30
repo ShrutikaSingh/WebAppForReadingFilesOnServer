@@ -1,5 +1,5 @@
 Problem Statement:-
-Select lightweight web server, which is fast, low footprint and simple (should work on ARM based IoT devices). Please provide pros and cons while compairing web server.
+Develop web app using Django and Python, which reads from config file in server, and executes python scripts in server and displays output in webserver
 
 The config.txt file contain the python script for displaying the data from api  i.e from https://reqres.in/api/users
 when we press the button the config.txt script will run and fetch the data from https://reqres.in/api/users
